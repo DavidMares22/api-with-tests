@@ -6,13 +6,13 @@ namespace HRBackendExercise.API.Services
 	public class ProductService : IProductsService
 	{
 		// DO NOT MODIFY THE SIGNATURES, JUST THE BODIES
-		public List<Product> Products { get; set; }
+		public List<Product> Products { get; set; } = new List<Product>();
 		public Product Create(Product entity)
 		{
 			if(Products.Any())
 			{
 				var maxId = Products.Max(x => x.Id);
-				entity.Id = maxId++;
+				entity.Id = maxId + 1;
 			}else
 			{
 				entity.Id = 1;
@@ -24,7 +24,7 @@ namespace HRBackendExercise.API.Services
 
 		public Product? GetById(int id)
 		{
-			return Products.Single(x => x.Id == id);
+			return Products.SingleOrDefault(x => x.Id == id);
 		}
 
 		public IEnumerable<Product> GetAll()
@@ -34,8 +34,18 @@ namespace HRBackendExercise.API.Services
 
 		public void Update(Product entity)
 		{
-			var oldPoduct = GetById(entity.Id);
-			var indexOldProduct = Products.IndexOf(oldPoduct);
+ 
+			var product  = GetById(entity.Id);
+
+			if(product == null){
+				throw new Exception("Invalid entity.");
+			}
+
+
+			
+
+
+			var indexOldProduct = Products.IndexOf(entity);
 
 			Products[indexOldProduct].Description = entity.Description;
 			Products[indexOldProduct].SKU = entity.SKU;

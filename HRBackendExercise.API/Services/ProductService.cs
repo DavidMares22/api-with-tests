@@ -17,7 +17,7 @@ namespace HRBackendExercise.API.Services
 			{
 				entity.Id = 1;
 			}
-
+			this.Products.Add(entity);
 
 		 	return entity;
 		}

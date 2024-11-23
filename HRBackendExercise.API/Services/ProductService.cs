@@ -11,8 +11,8 @@ namespace HRBackendExercise.API.Services
 		{
 			if(Products.Any())
 			{
-				var lastProduct = Products.Last();
-				entity.Id = lastProduct.Id++;
+				var maxId = Products.Max(x => x.Id);
+				entity.Id = maxId++;
 			}else
 			{
 				entity.Id = 1;

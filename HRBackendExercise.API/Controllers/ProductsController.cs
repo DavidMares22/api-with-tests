@@ -45,7 +45,7 @@ namespace HRBackendExercise.API.Controllers
 			var product = this.productsService.GetById(id);
 			this.productsService.Delete(product);
 
-			return Ok();
+			return NoContent();
 		}
 	}
 }

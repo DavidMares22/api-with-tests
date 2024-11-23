@@ -40,6 +40,11 @@ namespace HRBackendExercise.API.Controllers
 
 		public IActionResult Put(Product product)
 		{
+
+			if(product == null)
+			{
+				return BadRequest();
+			}
 			this.productsService.Update(product);
 
 			return Ok();

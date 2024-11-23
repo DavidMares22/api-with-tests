@@ -63,7 +63,7 @@ namespace HRBackendExercise.API.Controllers
 		public IActionResult Put(Product product)
 		{
 
-			if (product.SKU == null || product.Price <= 0 || product.Id <= 0)
+			if (product == null || product.SKU == null || product.Price <= 0 || product.Id <= 0)
 			{
 				return BadRequest();
 			}

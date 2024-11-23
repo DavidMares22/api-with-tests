@@ -45,7 +45,7 @@ namespace HRBackendExercise.API.Services
 			
 
 
-			var indexOldProduct = Products.IndexOf(entity);
+			var indexOldProduct = Products.IndexOf(product);
 
 			Products[indexOldProduct].Description = entity.Description;
 			Products[indexOldProduct].SKU = entity.SKU;

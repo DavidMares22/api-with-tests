@@ -29,6 +29,11 @@ namespace HRBackendExercise.API.Controllers
 
 		public IActionResult Post(Product product)
 		{
+			if(product == null)
+			{
+				return BadRequest();
+			}
+
 			var result = this.productsService.Create(product);
 			return Ok(result);
 		}

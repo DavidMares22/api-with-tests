@@ -24,7 +24,7 @@ namespace HRBackendExercise.API.Services
 
 		public Product? GetById(int id)
 		{
-			throw new NotImplementedException();
+			return Products.Single(x => x.Id == id);
 		}
 
 		public IEnumerable<Product> GetAll()

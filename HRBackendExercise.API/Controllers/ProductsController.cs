@@ -9,20 +9,23 @@ namespace HRBackendExercise.API.Controllers
 	public class ProductsController : ControllerBase
 	{
 		// DO NOT MODIFY THE SIGNATURES, JUST THE BODIES
-
+				IProductsService productsService;
         public ProductsController(IProductsService productsService)
-		{
-				
+				{
+						this.productsService = productsService;
         }
 
         public IActionResult Get(int id)
 		{
-			throw new NotImplementedException();
+			var product = this.productsService.GetById(id);
+
+			return Ok(product);
 		}
 
 		public IActionResult Post(Product product)
 		{
-			throw new NotImplementedException();
+			var result = this.productsService.Create(product);
+			return Ok(result);
 		}
 
 		public IActionResult Put(Product product)

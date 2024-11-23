@@ -18,8 +18,13 @@ namespace HRBackendExercise.API.Controllers
         public IActionResult Get(int id)
 		{
 			var product = this.productsService.GetById(id);
-
 			return Ok(product);
+		}
+
+		public IActionResult GetAll()
+		{
+			var products = this.productsService.GetAll();
+			return Ok(products);
 		}
 
 		public IActionResult Post(Product product)
@@ -30,12 +35,17 @@ namespace HRBackendExercise.API.Controllers
 
 		public IActionResult Put(Product product)
 		{
-			throw new NotImplementedException();
+			this.productsService.Update(product);
+
+			return Ok();
 		}
 
 		public IActionResult Delete(int id)
 		{
-			throw new NotImplementedException();
+			var product = this.productsService.GetById(id);
+			this.productsService.Delete(product);
+
+			return Ok();
 		}
 	}
 }

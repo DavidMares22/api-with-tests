@@ -29,17 +29,23 @@ namespace HRBackendExercise.API.Services
 
 		public IEnumerable<Product> GetAll()
 		{
-			throw new NotImplementedException();
-		}
+			return Products;
+ 		}
 
 		public void Update(Product entity)
 		{
-			throw new NotImplementedException();
+			var oldPoduct = GetById(entity.Id);
+			var indexOldProduct = Products.IndexOf(oldPoduct);
+
+			Products[indexOldProduct].Description = entity.Description;
+			Products[indexOldProduct].SKU = entity.SKU;
+			Products[indexOldProduct].Price = entity.Price;
+
 		}
 
 		public void Delete(Product entity)
 		{
-			throw new NotImplementedException();
+		  Products.Remove(entity);
 		}
 	}
 }

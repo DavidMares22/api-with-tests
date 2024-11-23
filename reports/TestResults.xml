@@ -1,34 +1,34 @@
-<assemblies timestamp="11/23/2024 15:14:03">
-  <assembly name="/projects/challenge/HRBackendExercise.API.Tests/bin/Debug/net6.0/HRBackendExercise.API.Tests.dll" run-date="2024-11-23" run-time="15:14:03" total="47" passed="10" failed="37" skipped="0" time="3.345" errors="0">
+<assemblies timestamp="11/23/2024 15:15:04">
+  <assembly name="/projects/challenge/HRBackendExercise.API.Tests/bin/Debug/net6.0/HRBackendExercise.API.Tests.dll" run-date="2024-11-23" run-time="15:15:04" total="47" passed="10" failed="37" skipped="0" time="3.308" errors="0">
     <errors />
-    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" time="0.010">
-      <test name="ControllerDeleteShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" method="ReturnSuccessStatusCode" time="0.0097140" result="Pass">
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" time="0.265">
+      <test name="ControllerDeleteShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_DeleteShould" method="ReturnSuccessStatusCode" time="0.2651732" result="Pass">
         <traits />
       </test>
     </collection>
-    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_GetShould" time="0.299">
-      <test name="ControllerGetShouldReturnOk" type="HRBackendExercise.API.Tests.Basic.Controller_GetShould" method="ReturnOk_OnNotNullProduct" time="0.2990728" result="Pass">
+    <collection total="1" passed="1" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_GetShould" time="0.024">
+      <test name="ControllerGetShouldReturnOk" type="HRBackendExercise.API.Tests.Basic.Controller_GetShould" method="ReturnOk_OnNotNullProduct" time="0.0242836" result="Pass">
         <traits />
       </test>
     </collection>
-    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PostShould" time="0.005">
-      <test name="ControllerPostShouldReturnBadRequestOnNullInput" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnBadRequest_OnNullInputProduct" time="0.0012308" result="Pass">
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PostShould" time="0.002">
+      <test name="ControllerPostShouldReturnBadRequestOnNullInput" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnBadRequest_OnNullInputProduct" time="0.0003657" result="Pass">
         <traits />
       </test>
-      <test name="ControllerPostShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnSuccessStatusCode" time="0.0036756" result="Pass">
-        <traits />
-      </test>
-    </collection>
-    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PutShould" time="0.181">
-      <test name="ControllerPutShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnSuccessStatusCode" time="0.1810372" result="Pass">
-        <traits />
-      </test>
-      <test name="ControllerPutShouldReturnBadRequestOnNullProduct" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnBadRequest_OnNullInputProduct" time="0.0002746" result="Pass">
+      <test name="ControllerPostShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PostShould" method="ReturnSuccessStatusCode" time="0.0013234" result="Pass">
         <traits />
       </test>
     </collection>
-    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_CreateShould" time="0.000">
-      <test name="ServiceCreateShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_CreateShould" method="ReturnNotNull" time="0.0004664" result="Fail">
+    <collection total="2" passed="2" failed="0" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Controller_PutShould" time="0.021">
+      <test name="ControllerPutShouldReturnSuccessStatusCode" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnSuccessStatusCode" time="0.0204247" result="Pass">
+        <traits />
+      </test>
+      <test name="ControllerPutShouldReturnBadRequestOnNullProduct" type="HRBackendExercise.API.Tests.Basic.Controller_PutShould" method="ReturnBadRequest_OnNullInputProduct" time="0.0003401" result="Pass">
+        <traits />
+      </test>
+    </collection>
+    <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_CreateShould" time="0.001">
+      <test name="ServiceCreateShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_CreateShould" method="ReturnNotNull" time="0.0005677" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -39,8 +39,8 @@
         <traits />
       </test>
     </collection>
-    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_DeleteShould" time="0.008">
-      <test name="ServiceDeleteShouldRemoveProudct" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="RemoveProduct" time="0.0059879" result="Fail">
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_DeleteShould" time="0.014">
+      <test name="ServiceDeleteShouldRemoveProudct" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="RemoveProduct" time="0.0004908" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -50,7 +50,7 @@
         </failure>
         <traits />
       </test>
-      <test name="ServiceDeleteShouldDoNothing" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="DoNothing_OnCollectionNotContainsProduct" time="0.0015338" result="Fail">
+      <test name="ServiceDeleteShouldDoNothing" type="HRBackendExercise.API.Tests.Basic.Service_DeleteShould" method="DoNothing_OnCollectionNotContainsProduct" time="0.0137289" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -61,15 +61,15 @@
         <traits />
       </test>
     </collection>
-    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_GetAllShould" time="0.012">
-      <test name="ServiceGetAllShouldReturnEmptyCollection" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="RetrunEmpty" time="0.0009187" result="Fail">
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_GetAllShould" time="0.002">
+      <test name="ServiceGetAllShouldReturnEmptyCollection" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="RetrunEmpty" time="0.0014908" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'collection')</message>
           <stack-trace>   at HRBackendExercise.API.Tests.Basic.Service_GetAllShould.RetrunEmpty() in /projects/challenge/HRBackendExercise.API.Tests/Basic/ServiceBasicTests.cs:line 54</stack-trace>
         </failure>
         <traits />
       </test>
-      <test name="ServiceGetAllShouldAllEntries" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="ReturnAllEntries" time="0.0113862" result="Fail">
+      <test name="ServiceGetAllShouldAllEntries" type="HRBackendExercise.API.Tests.Basic.Service_GetAllShould" method="ReturnAllEntries" time="0.0010043" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -81,7 +81,7 @@
       </test>
     </collection>
     <collection total="1" passed="0" failed="1" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_GetShould" time="0.001">
-      <test name="ServiceGetShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_GetShould" method="ReturnNotNull_OnValidId" time="0.0005350" result="Fail">
+      <test name="ServiceGetShouldReturnNotNull" type="HRBackendExercise.API.Tests.Basic.Service_GetShould" method="ReturnNotNull_OnValidId" time="0.0005327" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -92,8 +92,8 @@
         <traits />
       </test>
     </collection>
-    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_UpdateShould" time="0.010">
-      <test name="ServiceUpdateShouldThrowException" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="ThrowException_OnInvalidId" time="0.0086656" result="Fail">
+    <collection total="2" passed="0" failed="2" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Basic.Service_UpdateShould" time="0.027">
+      <test name="ServiceUpdateShouldThrowException" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="ThrowException_OnInvalidId" time="0.0249249" result="Fail">
         <failure>
           <message>Assert.StartsWith() Failure: String start does not match
 String:         "Value cannot be null. (Parameter 'source'"···
@@ -102,7 +102,7 @@ Expected start: "Invalid entity."</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceUpdateShouldUpdateValues" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="UpdateValues" time="0.0011822" result="Fail">
+      <test name="ServiceUpdateShouldUpdateValues" type="HRBackendExercise.API.Tests.Basic.Service_UpdateShould" method="UpdateValues" time="0.0018837" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -113,8 +113,8 @@ Expected start: "Invalid entity."</message>
         <traits />
       </test>
     </collection>
-    <collection total="27" passed="4" failed="23" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ControllerTests" time="0.186">
-      <test name="ControllerPostShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnNullSKU" time="0.0097032" result="Fail">
+    <collection total="27" passed="4" failed="23" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ControllerTests" time="0.329">
+      <test name="ControllerPostShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnNullSKU" time="0.1502527" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.BadRequestResult)
@@ -123,7 +123,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkObjectResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerGetShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnNotFound_OnNullProduct" time="0.0035331" result="Fail">
+      <test name="ControllerGetShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnNotFound_OnNullProduct" time="0.0017703" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.NotFoundResult)
@@ -132,7 +132,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkObjectResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNotFound_OnNullProduct" time="0.0013012" result="Fail">
+      <test name="ControllerPutShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNotFound_OnNullProduct" time="0.0038117" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.NotFoundResult)
@@ -141,7 +141,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0101657" result="Fail">
+      <test name="ControllerPutInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0223835" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception.</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -157,10 +157,10 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPostShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldCallCreateFromService" time="0.0197699" result="Pass">
+      <test name="ControllerPostShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldCallCreateFromService" time="0.0249363" result="Pass">
         <traits />
       </test>
-      <test name="ControllerPostShouldReturnCreated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnCreatedStatusCode" time="0.0014617" result="Fail">
+      <test name="ControllerPostShouldReturnCreated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnCreatedStatusCode" time="0.0014230" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.ObjectResult)
@@ -169,7 +169,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkObjectResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPostShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldHasAccordinglyDecorator" time="0.0135703" result="Fail">
+      <test name="ControllerPostShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldHasAccordinglyDecorator" time="0.0114258" result="Fail">
         <failure>
           <message>Assert.Contains() Failure: Filter not matched in collection
 Collection: []</message>
@@ -177,7 +177,7 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPostShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0007435" result="Fail">
+      <test name="ControllerPostShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0007284" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.BadRequestResult)
@@ -186,10 +186,10 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkObjectResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerDeleteShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNoContent" time="0.0099097" result="Pass">
+      <test name="ControllerDeleteShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNoContent" time="0.0230394" result="Pass">
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNoContent" time="0.0030322" result="Fail">
+      <test name="ControllerPutShouldReturnNoContent" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnNoContent" time="0.0120512" result="Fail">
         <failure>
           <message>Assert.Equal() Failure: Values differ
 Expected: 204
@@ -198,7 +198,7 @@ Actual:   200</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerDeleteShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldHasAccordinglyDecorator" time="0.0006058" result="Fail">
+      <test name="ControllerDeleteShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldHasAccordinglyDecorator" time="0.0006875" result="Fail">
         <failure>
           <message>Assert.Contains() Failure: Filter not matched in collection
 Collection: []</message>
@@ -206,13 +206,13 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerGetShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldCallGetByIdFromService" time="0.0020114" result="Pass">
+      <test name="ControllerGetShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldCallGetByIdFromService" time="0.0023281" result="Pass">
         <traits />
       </test>
-      <test name="ControllerDeleteShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldCallDeleteFromService" time="0.0124987" result="Pass">
+      <test name="ControllerDeleteShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldCallDeleteFromService" time="0.0115711" result="Pass">
         <traits />
       </test>
-      <test name="ControllerDeleteInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0019173" result="Fail">
+      <test name="ControllerDeleteInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0021300" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -228,7 +228,7 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnBadRequestOnZeroId" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnIdEqualsToZero" time="0.0006814" result="Fail">
+      <test name="ControllerPutShouldReturnBadRequestOnZeroId" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnIdEqualsToZero" time="0.0007063" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.BadRequestResult)
@@ -237,7 +237,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerDeleteShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNotFound_OnNullProduct" time="0.0076767" result="Fail">
+      <test name="ControllerDeleteShouldReturnNotFound" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnNotFound_OnNullProduct" time="0.0017845" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -253,7 +253,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerGetInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0014964" result="Fail">
+      <test name="ControllerGetInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0015330" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -269,7 +269,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerDeleteShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnInternalServerError_OnUnhandledException" time="0.0018495" result="Fail">
+      <test name="ControllerDeleteShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Delete_ShouldReturnInternalServerError_OnUnhandledException" time="0.0018492" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -285,7 +285,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldCallUpdateFromService" time="0.0592088" result="Fail">
+      <test name="ControllerPutShouldImplementService" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldCallUpdateFromService" time="0.0339751" result="Fail">
         <failure>
           <message>Moq.MockException : 
 Expected invocation on the mock once, but was 0 times: x =&gt; x.GetById(12)
@@ -302,7 +302,7 @@ Performed invocations:
         </failure>
         <traits />
       </test>
-      <test name="ControllerPostInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0016977" result="Fail">
+      <test name="ControllerPostInternalServerErrorShouldHaveMessageProp" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ResponseShouldHasMessageProperty_OnInternalServerErrorScenario" time="0.0052074" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -318,7 +318,7 @@ Performed invocations:
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnNullSKU" time="0.0006561" result="Fail">
+      <test name="ControllerPutShouldReturnBadRequestOnNullSKU" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnNullSKU" time="0.0006571" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.BadRequestResult)
@@ -327,7 +327,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPostShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnInternalServerError_OnUnhandledException" time="0.0083164" result="Fail">
+      <test name="ControllerPostShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Post_ShouldReturnInternalServerError_OnUnhandledException" time="0.0014179" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -343,7 +343,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0007741" result="Fail">
+      <test name="ControllerPutShouldReturnBadRequestOnZeroPrice" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnBadRequest_OnPriceEqualsToZero" time="0.0005720" result="Fail">
         <failure>
           <message>Assert.IsType() Failure: Value is not the exact type
 Expected: typeof(Microsoft.AspNetCore.Mvc.BadRequestResult)
@@ -352,7 +352,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnInternalServerError_OnUnhandledException" time="0.0021828" result="Fail">
+      <test name="ControllerPutShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldReturnInternalServerError_OnUnhandledException" time="0.0019007" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception.</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -368,7 +368,7 @@ Actual:   typeof(Microsoft.AspNetCore.Mvc.OkResult)</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerPutShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldHasAccordinglyDecorator" time="0.0006794" result="Fail">
+      <test name="ControllerPutShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Put_ShouldHasAccordinglyDecorator" time="0.0005996" result="Fail">
         <failure>
           <message>Assert.Contains() Failure: Filter not matched in collection
 Collection: []</message>
@@ -376,7 +376,7 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerGetShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnInternalServerError_OnUnhandledException" time="0.0014392" result="Fail">
+      <test name="ControllerGetShouldReturnInternalServerError" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldReturnInternalServerError_OnUnhandledException" time="0.0091529" result="Fail">
         <failure>
           <message>System.Exception : This is my dummy exception</message>
           <stack-trace>   at Moq.Behaviors.ThrowException.Execute(Invocation invocation) in /_/src/Moq/Behaviors/ThrowException.cs:line 64
@@ -392,7 +392,7 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ControllerGetShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldHasAccordinglyDecorator" time="0.0087436" result="Fail">
+      <test name="ControllerGetShouldBeHttpDecorated" type="HRBackendExercise.API.Tests.Hidden.ControllerTests" method="Get_ShouldHasAccordinglyDecorator" time="0.0007374" result="Fail">
         <failure>
           <message>Assert.Contains() Failure: Filter not matched in collection
 Collection: []</message>
@@ -401,8 +401,8 @@ Collection: []</message>
         <traits />
       </test>
     </collection>
-    <collection total="6" passed="0" failed="6" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ServiceTests" time="0.003">
-      <test name="ServiceCreateShouldCreateARecord" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAddARecord" time="0.0005692" result="Fail">
+    <collection total="6" passed="0" failed="6" skipped="0" name="Test collection for HRBackendExercise.API.Tests.Hidden.ServiceTests" time="0.013">
+      <test name="ServiceCreateShouldCreateARecord" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAddARecord" time="0.0006300" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -412,7 +412,7 @@ Collection: []</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceUpdateShouldThrowArgumentBasedException" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Update_ShouldThrowArgumentBasedException_OnInvalidId" time="0.0007553" result="Fail">
+      <test name="ServiceUpdateShouldThrowArgumentBasedException" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Update_ShouldThrowArgumentBasedException_OnInvalidId" time="0.0007348" result="Fail">
         <failure>
           <message>Assert.StartsWith() Failure: String start does not match
 String:         "Value cannot be null. (Parameter 'source'"···
@@ -421,7 +421,7 @@ Expected start: "Invalid entity."</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceCreateShouldIgnoreInputId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldIgnoreInputModelId" time="0.0004332" result="Fail">
+      <test name="ServiceCreateShouldIgnoreInputId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldIgnoreInputModelId" time="0.0102577" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -431,7 +431,7 @@ Expected start: "Invalid entity."</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceCreateShouldAssignIncrementalIds" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAssignIncrementalIds" time="0.0005261" result="Fail">
+      <test name="ServiceCreateShouldAssignIncrementalIds" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Create_ShouldAssignIncrementalIds" time="0.0006078" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -441,7 +441,7 @@ Expected start: "Invalid entity."</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceGetShouldReturnNullOnEmptyCollection" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnEmptyCollection" time="0.0004395" result="Fail">
+      <test name="ServiceGetShouldReturnNullOnEmptyCollection" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnEmptyCollection" time="0.0004682" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
@@ -452,7 +452,7 @@ Expected start: "Invalid entity."</message>
         </failure>
         <traits />
       </test>
-      <test name="ServiceGetShouldReturnNullOnInvalidId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnInvalidId" time="0.0003924" result="Fail">
+      <test name="ServiceGetShouldReturnNullOnInvalidId" type="HRBackendExercise.API.Tests.Hidden.ServiceTests" method="Get_ShouldReturnNull_OnInvalidId" time="0.0004301" result="Fail">
         <failure>
           <message>System.ArgumentNullException : Value cannot be null. (Parameter 'source')</message>
           <stack-trace>   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)

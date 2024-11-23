@@ -6,10 +6,20 @@ namespace HRBackendExercise.API.Services
 	public class ProductService : IProductsService
 	{
 		// DO NOT MODIFY THE SIGNATURES, JUST THE BODIES
-
+		public List<Product> Products { get; set; }
 		public Product Create(Product entity)
 		{
-			throw new NotImplementedException();
+			if(Products.Any())
+			{
+				var lastProduct = Products.Last();
+				entity.Id = lastProduct.Id++;
+			}else
+			{
+				entity.Id = 1;
+			}
+
+
+		 	return entity;
 		}
 
 		public Product? GetById(int id)
